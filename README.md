@@ -8,6 +8,8 @@
 # install dependencies
 $ npm install
 
+#To run the program, you need to run the redis server
+
 # serve with hot reload at localhost:3000
 $ npm run dev
 
