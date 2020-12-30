@@ -1,0 +1,40 @@
+{
+  "name": "nuxt-front-v1",
+  "version": "1.0.0",
+  "description": "My kryptonian Nuxt.js project",
+  "author": "toanvinh",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "devStart": "server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.11.0",
+    "bcrypt": "^5.0.0",
+    "cheerio": "^1.0.0-rc.3",
+    "connect-flash": "^0.1.1",
+    "connect-redis": "^4.0.4",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.1",
+    "ioredis": "^4.17.3",
+    "lodash.kebabcase": "^4.1.1",
+    "mongoose": "^5.9.18",
+    "multer": "^1.4.2",
+    "nuxt": "^2.0.0",
+    "shortid": "^2.2.15",
+    "vue-croppie": "^2.0.2"
+  },
+  "devDependencies": {
+    "@mdi/font": "^5.3.45",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "dotenv": "^8.2.0",
+    "nodemon": "^1.19.4",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.0.0"
+  }
+}
